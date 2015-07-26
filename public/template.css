@@ -1,0 +1,27 @@
+
+
+
+
+* {margin: 0; padding: 0;} /* обнуляем отступы */
+body {
+}
+html,body {
+    height: 100%; /* задаем высоту тела документа */
+    /*overflow-y: scroll;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.footer{
+    background: rgba(15, 148, 187, 0.80);
+    position: fixed;
+    color:rgba(255, 255, 255, 0.8);
+    width:100%;
+    height:55px;
+    padding:10px;
+    bottom:0px;
+}
+
+.footer a{
+    color: #FFFFFF;
+}
