@@ -102,5 +102,11 @@ Route::get('/home', array('as' => 'home',
 Route::post('/home', array('as' => 'home',
     'uses' => 'ParserController@home'));
 
+Route::get('/', array('as' => 'home',
+    'uses' => 'ParserController@home'));
+
+Route::post('/', array('as' => 'home',
+    'uses' => 'ParserController@home'));
+
 Route::get('urls', array('as' => 'urls',
     'uses' => 'ParserController@urls'));

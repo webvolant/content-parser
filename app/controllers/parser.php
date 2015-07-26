@@ -25,7 +25,7 @@ function request($url,$post = 0){
 class parser{
     public $cacheurl = array();
     public $result = array();
-    public $_allcount = 10;
+    public $_allcount = 50;
     public $urls = array();
     public $extensions = array('png', 'jpg', 'jpeg', 'xlsx', 'xls', 'doc', 'docx', 'pdf', 'csv');
 
