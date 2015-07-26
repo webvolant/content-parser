@@ -46,7 +46,7 @@ app.config(['$httpProvider', function($httpProvider){
 
 app.controller('parserCtrl', ['$scope', '$http', function($scope, $http) {
     $scope.filename = "";
-    $scope.sublink ="http://labmagnat.kg";
+    $scope.sublink ="";
     $scope.exp = [{id: 'exp1'}];
     $scope.loader = '';
 
